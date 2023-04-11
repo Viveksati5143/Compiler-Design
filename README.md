@@ -12,8 +12,18 @@ As for today (2023-04-11) you will need the lastest versions of:
 
 # Running your first program
 
-Open a prompt, cd to the directory where your ".l" and ".y" are, and compile them with:
+## Windows:
+Open a prompt, cd to the directory where your ".l" is, and compile it with:
 
-    1. flex hello.l
+    1. flex hello.l(file name)
     2. gcc lex.yy.c
     3. .\a.exe
+    4. Ctrl + Z (End)
+    
+## Linux:
+Open a prompt, cd to the directory where your ".l" is, and compile it with:
+
+    1. lex hello.l
+    2. gcc lex.yy.c -lfl
+    3. ./a.out
+    4. Ctrl + D (Stop taking inputs)
