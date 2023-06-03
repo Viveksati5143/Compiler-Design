@@ -21,7 +21,7 @@ int main()
 {
     printf("Enter the string comprising English alphabets\n");
     yylex();
-    printf("Number of vowels are:  %d\n", vowel);
-    printf("Number of consonents are:  %d\n", consonent);
+    printf("Number of vowels are: %d\n", vowel);
+    printf("Number of consonents are: %d\n", consonent);
     return 0;
 } 
