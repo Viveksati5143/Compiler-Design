@@ -1,6 +1,6 @@
 # Installation for Windows:
 
-As for today (2023-04-11) you will need the lastest versions of:
+As for today (2023-04-11) you will need the lastest version of:
 
 1. [flex-2.5.4a-1.exe](https://gnuwin32.sourceforge.net/packages/flex.htm)
 
