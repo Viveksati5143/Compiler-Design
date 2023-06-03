@@ -22,10 +22,3 @@ int main()
     printf("Total no. of\nLines = %d\nTabs = %d\nSpaces = %d\nChars = %d\n", n, m, t, c);
     return 0;
 }
-
-
-/* lex count.l          (1.Run using)   */   
-/* gcc lex.yy.c -lfl    (2.Then)    */
-/* ./a.out              (3.and) */
-/* Enter Input          (4.Finally) */
-/* Ctrl+D               (5.To stop taking inputs press) */
