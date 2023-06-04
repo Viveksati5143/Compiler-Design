@@ -4,9 +4,10 @@
 %}
 
 %%
+
 \n n++;
 \t m++;
-[\t] { t++; printf("Matched tab: %s\n", yytext); }
+[ ] { t++; printf("Matched tab: %s\n", yytext); }
 . { c++; printf("Matched char: %s\n", yytext); }
 
 %%
