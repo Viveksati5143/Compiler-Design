@@ -1,3 +1,5 @@
+/* Write a LEX program to count the number of lines, tabs, spaces and chars */
+
 %{
     #include<stdio.h>
     int n=1, m=0, t=0, c=0;

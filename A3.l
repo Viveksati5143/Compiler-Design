@@ -1,4 +1,4 @@
-/* Q3. Write a LEX program to convert an octal number to decimal number. */
+/* Write a LEX program to convert an octal number to a decimal number. */
 
 %{
     #include <stdio.h>
@@ -31,7 +31,7 @@ int yywrap()
 int dec(int oct)
 {
     int d = 0, c = 0;
-    while(oct)
+    while (oct)
     {
         int a = oct % 10;
         d += a * pow(8, c);

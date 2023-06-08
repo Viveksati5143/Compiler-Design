@@ -1,4 +1,4 @@
-/* Q1. Write a LEX program to count the number of vowels and consonants in a given string. */
+/* Write a LEX program to count the number of vowels and consonants in a given string. */
 
 %{
     #include<stdio.h>
