@@ -1,4 +1,4 @@
-/* Q6. Lex code for replacing multiple whitespaces with single whitespace */
+/* Write a Lex code for replacing multiple whitespaces with single whitespace */
 
 %{
 %}

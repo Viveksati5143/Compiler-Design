@@ -1,4 +1,4 @@
-/* Q9. Write a LEX code for implementation of DFA accepting even no. of a and b over input {a,b} with dead state. */
+/* Write a LEX code for implementation of DFA accepting even no. of a and b over input {a,b} with dead state. */
 
 %s A B C F
 
