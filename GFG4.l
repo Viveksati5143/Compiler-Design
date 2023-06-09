@@ -19,7 +19,7 @@ int yywrap()
 int main()
 {
     extern FILE* yyin;
-    yyin = fopen("num", "r");
+    yyin = fopen("n", "r");
     yylex();
     return 0;
 }
